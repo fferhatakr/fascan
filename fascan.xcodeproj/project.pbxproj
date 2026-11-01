@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		642AB4C63097E82D002A4A8D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 642AB4C53097E82D002A4A8D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		642AB4A53097E167002A4A8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		642AB4973097E166002A4A8D /* fascan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fascan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		642AB4A43097E167002A4A8D /* fascanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fascanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		642AB4AE3097E167002A4A8D /* fascanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fascanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		642AB4973097E166002A4A8D /* fascan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = fascan.app; path = "/Users/ferhat/Desktop/Workspace/development/fascan/build/Debug-iphoneos/fascan.app"; sourceTree = "<absolute>"; };
+		642AB4A43097E167002A4A8D /* fascanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = fascanTests.xctest; path = "/Users/ferhat/Desktop/Workspace/development/fascan/build/Debug-iphoneos/fascan.app/PlugIns/fascanTests.xctest"; sourceTree = "<absolute>"; };
+		642AB4AE3097E167002A4A8D /* fascanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = fascanUITests.xctest; path = "/Users/ferhat/Desktop/Workspace/development/fascan/build/Debug-iphoneos/fascanUITests-Runner.app/PlugIns/fascanUITests.xctest"; sourceTree = "<absolute>"; };
+		642AB4C53097E82D002A4A8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +48,11 @@
 		642AB4B13097E167002A4A8D /* fascanUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = fascanUITests;
+			sourceTree = "<group>";
+		};
+		642AB4C73097E927002A4A8D /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,21 +85,12 @@
 		642AB48E3097E166002A4A8D = {
 			isa = PBXGroup;
 			children = (
+				642AB4C53097E82D002A4A8D /* README.md */,
+				642AB4C73097E927002A4A8D /* docs */,
 				642AB4993097E166002A4A8D /* fascan */,
 				642AB4A73097E167002A4A8D /* fascanTests */,
 				642AB4B13097E167002A4A8D /* fascanUITests */,
-				642AB4983097E166002A4A8D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		642AB4983097E166002A4A8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				642AB4973097E166002A4A8D /* fascan.app */,
-				642AB4A43097E167002A4A8D /* fascanTests.xctest */,
-				642AB4AE3097E167002A4A8D /* fascanUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +110,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				642AB4993097E166002A4A8D /* fascan */,
+				642AB4C73097E927002A4A8D /* docs */,
 			);
 			name = fascan;
 			packageProductDependencies = (
@@ -196,7 +198,7 @@
 			mainGroup = 642AB48E3097E166002A4A8D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 642AB4983097E166002A4A8D /* Products */;
+			productRefGroup = 642AB48E3097E166002A4A8D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -212,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642AB4C63097E82D002A4A8D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
