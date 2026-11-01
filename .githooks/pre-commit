@@ -1,0 +1,6 @@
+#!/bin/sh
+if gitleaks git --help >/dev/null 2>&1; then
+  gitleaks git --pre-commit --staged --redact -v --config .gitleaks.toml
+else
+  gitleaks protect --staged --redact -v --config .gitleaks.toml
+fi

@@ -1,0 +1,11 @@
+title = "fascan gitleaks yapılandırması"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Xcode ve SPM tarafından üretilen dosyalar"
+paths = [
+  '''(.*?)\.xcassets/''',
+  '''Package\.resolved$''',
+]

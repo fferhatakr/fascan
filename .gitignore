@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode: kişisel kullanıcı durumu
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode: derleme çıktıları
+DerivedData/
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+*.xcresult
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+Carthage/Checkouts/
+
+# İmzalama sertifikaları ve Apple anahtarları
+*.p12
+*.p8
+*.pem
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+
+# Gizli ayarlar ve API anahtarları
+.env
+.env.*
+Secrets.xcconfig
+Secrets.swift
+GoogleService-Info.plist
+
+# Editörler
+.idea/
+.vscode/
+*.swp
